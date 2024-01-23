@@ -21,12 +21,12 @@ Here are the writeups of my solutions levels I cleared.
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/Ethernaut_Hello_-spoil-/tree/main/images/hello.png" width="900" alt="Ethernaut Hello">
+<img src="https://github.com/Jer-B/Ethernaut_Hello_-spoil-/blob/main/images/hello.png" width="900" alt="Ethernaut Hello">
 </p>
 <br/>
 
 Introductory level.
-[Link to the repository: Here.](https://github.com/Jer-B/Ethernaut_Hello_-spoil-)
+Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Hello_-spoil-).
 
 <a name="japanese"></a>
 
@@ -51,10 +51,10 @@ Introductory level.
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/Ethernaut_Hello_-spoil-/tree/main/images/hello.png" width="900" alt="Ethernaut Hello">
+<img src="https://github.com/Jer-B/Ethernaut_Hello_-spoil-/blob/main/images/hello.png" width="900" alt="Ethernaut Hello">
 </p>
 <br/>
 
 これは導入的なレベルである。
 
-[レポジトリーへのリンクは: こちら。](https://github.com/Jer-B/Ethernaut_Hello_-spoil-)
+レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Hello_-spoil-)。
