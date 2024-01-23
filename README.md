@@ -25,7 +25,7 @@ Here are the writeups of my solutions levels I cleared.
 </p>
 <br/>
 
-Introductory level.<br />
+Introductory level.<br /><br />
 Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Hello_-spoil-).
 <br />
 <br />
@@ -39,7 +39,7 @@ Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Hello_-spoil-)
 </p>
 <br/>
 
-The goal is to become the Owner of the smart contract to be able to steal all the funds in it.<br />
+The goal is to become the Owner of the smart contract to be able to steal all the funds in it.<br /><br />
 Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Fallback_-spoil-).
 <br />
 <br />
@@ -55,7 +55,7 @@ Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Fallback_-spoi
 
 The goal is to become the Owner of the smart contract.<br />
 
-- The best hint is in the presentation image of the problem. <br />
+- The best hint is in the presentation image of the problem. <br /><br />
   Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Fallout_-spoil-).
   <br />
   <br />
@@ -69,7 +69,7 @@ The goal is to become the Owner of the smart contract.<br />
 </p>
 <br/>
 
-The goal is to guess 10 times the right side on which the coin is gonna flip when calling the `flip()` function.<br />
+The goal is to guess 10 times the right side on which the coin is gonna flip when calling the `flip()` function.<br /><br />
 Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Coinflip_-spoil-).
 <br />
 <br />
@@ -87,7 +87,7 @@ The goal is to become the Owner of the smart contract.<br />
 
 - In the `Telephone` smart contract, there is a logic that if transaction made that is not from `tx.origin` we can become the owner.<br />
 - It is a problem to show what to use when it comes to the transaction origine. `tx.origin` or `msg.sender` .<br />
-- The `tx.origin` global variable refers to the original external account that started the transaction while `msg.sender` is a direct transaction from an user.<br />
+- The `tx.origin` global variable refers to the original external account that started the transaction while `msg.sender` is a direct transaction from an user.<br /><br />
   Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Telephone_-spoil-).
   <br />
   <br />
@@ -140,7 +140,7 @@ The goal is to get all ERC20 Tokens of the contract transfered to our balance
 </p>
 <br/>
 
-これは導入的なレベルである。<br />
+これは導入的なレベルである。<br /><br />
 
 レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Hello_-spoil-)。
 <br />
@@ -155,7 +155,7 @@ The goal is to get all ERC20 Tokens of the contract transfered to our balance
 </p>
 <br/>
 
-目標は、そのスマートコントラクトのオーナーになり、中にあるすべての資金を奪うことです。<br />
+目標は、そのスマートコントラクトのオーナーになり、中にあるすべての資金を奪うことです。<br /><br />
 
 レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Fallback_-spoil-)。
 <br />
@@ -171,7 +171,7 @@ The goal is to get all ERC20 Tokens of the contract transfered to our balance
 <br/>
 
 - 目標は、スマートコントラクトの所有者になることです。<br />
-  最も役立つヒントは、問題のプレゼンテーション画像にあります。<br />
+  最も役立つヒントは、問題のプレゼンテーション画像にあります。<br /><br />
 
 レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Fallout_-spoil-)。
 <br />
@@ -186,7 +186,7 @@ The goal is to get all ERC20 Tokens of the contract transfered to our balance
 </p>
 <br/>
 
-- 目標は、`flip（）` 関数を呼び出すときに、コインがどの側に反転するかを 10 回正しく予想することです。
+- 目標は、`flip（）` 関数を呼び出すときに、コインがどの側に反転するかを 10 回正しく予想することです。<br /><br />
 
 レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Coinflip_-spoil-)。
 <br />
@@ -205,7 +205,7 @@ The goal is to get all ERC20 Tokens of the contract transfered to our balance
 
 - `Telephone`スマートコントラクトでは、`tx.origin` からのトランザクションでない場合、オーナーになる仕組みがあります。<br/>
 - トランザクションの発生元を示すときに、`tx.origin` または `msg.sender` を使用するかどうかは問題です。<br/>
-- `tx.origin` 変数は、トランザクションを開始した元の外部アカウントを参照しますが、`msg.sender` はユーザーから直接のトランザクションです。<br/>
+- `tx.origin` 変数は、トランザクションを開始した元の外部アカウントを参照しますが、`msg.sender` はユーザーから直接のトランザクションです。<br/><br />
   レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Telephone_-spoil-)。
   <br />
   <br />
@@ -225,7 +225,7 @@ The goal is to get all ERC20 Tokens of the contract transfered to our balance
 - `SafeMath` がない場合、コンパイラバージョンが `0.8.0` 未満のすべての Solidity コントラクトには`アンダーフロー`と`オーバーフロー`の問題があります。
 - 例：`uint` 型の整数で値が `20` の場合、`20 + 1` を行ったとしましょう。結果は`21` ではなく、`21` を超えて `1` を得ます。これはこの場合の `UintMax` です。
 - つまり、合計供給量のすべてのトークンを持っている可能性があります。
-- この問題を防ぐために `SafeMath` が使用されました。`0.8.0` 以降、Solidity にはデフォルトで組み込まれています。
+- この問題を防ぐために `SafeMath` が使用されました。`0.8.0` 以降、Solidity にはデフォルトで組み込まれています。<br /><br />
 
 レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Token_-spoil-)。
 <br />
