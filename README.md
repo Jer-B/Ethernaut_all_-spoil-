@@ -39,6 +39,19 @@ Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Hello_-spoil-)
 The goal is to become the Owner of the smart contract to be able to steal all the funds in it.<br />
 Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Fallback_-spoil-).
 
+## Ethernaut 2. Fallout
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/Ethernaut_Fallout_-spoil-/blob/main/images/fallout.png" width="900" alt="Ethernaut Fallout">
+</p>
+<br/>
+
+The goal is to become the Owner of the smart contract.<br />
+
+- The best hint is in the presentation image of the problem. <br />
+  Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Fallout_-spoil-).
+
 <a name="japanese"></a>
 
 # 日本語版の README
@@ -74,10 +87,23 @@ Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Fallback_-spoi
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/Ethernaut_Hello_-spoil-/blob/main/images/hello.png" width="900" alt="Ethernaut Hello">
+<img src="https://github.com/Jer-B/Ethernaut_Fallback_-spoil-/blob/main/images/fallback.png" width="900" alt="Ethernaut Hello">
 </p>
 <br/>
 
 目標は、そのスマートコントラクトのオーナーになり、中にあるすべての資金を奪うことです。<br />
 
 レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Fallback_-spoil-)。
+
+## Ethernaut 2. Fallout
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/Ethernaut_Fallout_-spoil-/blob/main/images/fallout.png" width="900" alt="Ethernaut Fallback">
+</p>
+<br/>
+
+- 目標は、スマートコントラクトの所有者になることです。<br />
+  最も役立つヒントは、問題のプレゼンテーション画像にあります。<br />
+
+レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Fallout_-spoil-)。
