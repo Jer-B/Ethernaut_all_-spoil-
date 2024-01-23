@@ -25,8 +25,19 @@ Here are the writeups of my solutions levels I cleared.
 </p>
 <br/>
 
-Introductory level.
+Introductory level.<br />
 Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Hello_-spoil-).
+
+## Ethernaut 1. Fallback
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/Ethernaut_Fallback_-spoil-/blob/main/images/fallback.png" width="900" alt="Ethernaut Fallback">
+</p>
+<br/>
+
+The goal is to become the Owner of the smart contract to be able to steal all the funds in it.<br />
+Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Fallback_-spoil-).
 
 <a name="japanese"></a>
 
@@ -55,6 +66,18 @@ Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Hello_-spoil-)
 </p>
 <br/>
 
-これは導入的なレベルである。
+これは導入的なレベルである。<br />
 
 レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Hello_-spoil-)。
+
+## Ethernaut 0. Fallback
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/Ethernaut_Hello_-spoil-/blob/main/images/hello.png" width="900" alt="Ethernaut Hello">
+</p>
+<br/>
+
+目標は、そのスマートコントラクトのオーナーになり、中にあるすべての資金を奪うことです。<br />
+
+レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Fallback_-spoil-)。
