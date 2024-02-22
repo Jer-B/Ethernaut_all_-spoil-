@@ -113,6 +113,42 @@ The goal is to get all ERC20 Tokens of the contract transfered to our balance
   <br />
   <br />
 
+## Ethernaut 9. King
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/Ethernaut_King_-spoil-/raw/main/images/king_contract.png" width="700" alt="Ethernaut King">
+</p>
+<br/>
+
+The goal is to take control of the contract.
+
+- The solution here is to send an amount of ether superior to the prize to the contract. Here is an easy explanation:
+- To do so we can only use the `call` function.
+- `transfer` and `send` can not be used as when calling the `receive` function of the contract, it will revert the transaction due to the gas cap of 2300.
+- `call` function does not have this gas cap and can be used to send ether to the contract.
+  Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_King_-spoil-).
+  <br />
+  <br />
+  <br />
+
+## Ethernaut 10. Re-Entrancy
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/Ethernaut_ReEntrancy_-spoil-/raw/main/images/reentrant_contract.png" width="700" alt="Ethernaut King">
+</p>
+<br/>
+
+The goal is to empty the contract of its funds.
+
+- What is going to happen, we need to call `donate` to set a `value` to the balance of contract used for the attack.
+- Then call `withdraw` to empty the contract. Since the state changes happen later on, the `receive` function will be called and the attack will be repeated until the attacked contract balance is less than `0.001eth`.
+  Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_ReEntrancy_-spoil-).
+  <br />
+  <br />
+  <br />
+
 <a name="japanese"></a>
 
 # 日本語版の README
@@ -231,3 +267,41 @@ The goal is to get all ERC20 Tokens of the contract transfered to our balance
 <br />
 <br />
 <br />
+
+## Ethernaut 9. King
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/Ethernaut_King_-spoil-/raw/main/images/king_contract.png" width="700" alt="Ethernaut King">
+</p>
+<br/>
+
+コントラクトの管理権を握ることが目標です。
+
+- ここでの解決策は、賞金よりも多いエーテルをコントラクトに送ることです。簡単な説明は以下の通りです：
+- これを行うには、`call`関数のみを使用できます。
+- `transfer`や`send`は使用できません。コントラクトの`receive`関数を呼び出すと、2300 のガス上限のためにトランザクションがリバートされるからです。
+- `call`関数にはこのガス上限がなく、エーテルをコントラクトに送るために使用できます。
+
+  レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_King_-spoil-).
+  <br />
+  <br />
+  <br />
+
+## Ethernaut 10. Re-Entrancy
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/Ethernaut_ReEntrancy_-spoil-/raw/main/images/reentrant_contract.png" width="700" alt="Ethernaut King">
+</p>
+<br/>
+
+目標は、契約の資金を空にすることです。
+
+- - 何が起こるかというと、攻撃に使用される契約の残高に`value`を設定するために`donate`を呼び出す必要があります。
+- その後、`withdraw`を呼び出して契約の中身を空にします。状態の変更が後で起こるため、`receive`関数が呼び出され、攻撃された契約の残高が`0.001eth`未満になるまで攻撃が繰り返されます。
+
+  レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_ReEntrancy_-spoil-).
+  <br />
+  <br />
+  <br />
