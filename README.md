@@ -117,7 +117,7 @@ The goal is to get all ERC20 Tokens of the contract transfered to our balance
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/Ethernaut_Vault_-spoil-/raw/main/images/king_contract.png" width="700" alt="Ethernaut Vault">
+<img src="https://github.com/Jer-B/Ethernaut_Vault_-spoil-/raw/main/images/vault_contract.png" width="700" alt="Ethernaut Vault">
 </p>
 <br/>
 
@@ -289,7 +289,7 @@ The goal is to empty the contract of its funds.
 
 <br/>
 <p align="center">
-<img src="https://github.com/Jer-B/Ethernaut_Vault_-spoil-/raw/main/images/king_contract.png" width="700" alt="Ethernaut Vault">
+<img src="https://github.com/Jer-B/Ethernaut_Vault_-spoil-/raw/main/images/vault_contract.png" width="700" alt="Ethernaut Vault">
 </p>
 <br/>
 
