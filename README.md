@@ -113,6 +113,23 @@ The goal is to get all ERC20 Tokens of the contract transfered to our balance
   <br />
   <br />
 
+## Ethernaut 8. Vault
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/Ethernaut_Vault_-spoil-/raw/main/images/king_contract.png" width="700" alt="Ethernaut Vault">
+</p>
+<br/>
+
+The goal is to unlock the contract by finding the `Bytes32` password.
+
+- The solution here is to find the value of the `private` variable
+
+  Link to the repository: [Here](https://github.com/Jer-B/Ethernaut_Vault_-spoil-).
+  <br />
+  <br />
+  <br />
+
 ## Ethernaut 9. King
 
 <br/>
@@ -267,6 +284,23 @@ The goal is to empty the contract of its funds.
 <br />
 <br />
 <br />
+
+## Ethernaut 8. Vault
+
+<br/>
+<p align="center">
+<img src="https://github.com/Jer-B/Ethernaut_Vault_-spoil-/raw/main/images/king_contract.png" width="700" alt="Ethernaut Vault">
+</p>
+<br/>
+
+コントラクトを解除する目的は、`Bytes32` パスワードを見つけることです。
+
+- ここでの解決策は、`private` 変数 `password` の値を見つけることです。
+
+  レポジトリーへのリンクは: [こちら](https://github.com/Jer-B/Ethernaut_Vault_-spoil-).
+  <br />
+  <br />
+  <br />
 
 ## Ethernaut 9. King
 
